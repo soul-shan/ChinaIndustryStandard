@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_radiobutton"
+            android:button="@null"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bottom_text" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_radiobutton"
+            android:button="@null"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:gravity="center"
+            android:text="关注"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bottom_text" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_radiobutton"
+            android:button="@null"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:gravity="center"
+            android:text="最近"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bottom_text" />
+
+        <RadioButton
+            android:id="@+id/rb_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_radiobutton"
+            android:button="@null"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bottom_text" />
+    </RadioGroup>
+
+</LinearLayout>
